@@ -1,0 +1,93 @@
+
+#grey-container{
+    background-color: #404040	;
+    height:250px;
+    padding:2%;
+    /* display: flex; */
+}
+
+#album-info{
+    color:white;
+    width: max-content;
+    margin-left: 2%;
+}
+#text-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#cover-image{
+    height:230px;
+    width:200px;
+}
+#controls{
+    display:flex;
+    color: white;
+    margin-left: 2%;
+}
+#cloud-button{
+    border: 1px solid black;
+    color: blue; 
+    font-weight: 900;
+    width: fit-content;
+}
+
+tr:not(:nth-child(2n+1)) {
+    background-color: #eee;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+tr{
+    padding: 20px;
+
+}
+td {
+    font-weight: 900;
+    padding: 10px;
+}
+#sidebar {
+    position: absolute;
+    top: 0;
+    left:0;
+}
+#sidebar-items{
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    background-color: #eee;
+    height: calc(100vh - 100px);
+    width: 30px;
+    justify-content: space-between;
+}
+.las{
+    text-align: center;
+}
+.black-icon{
+    color: #404040;
+}
+#bottom-bar{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    background-color: #43689B;
+}
+#bottom-bar-data{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    margin: 10px 10px 10px;
+}
+#bottom-controls{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 10px;
+
+}
+#bottom-control-button{
+    margin-left: 80px;
+
+}
