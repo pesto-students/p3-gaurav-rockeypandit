@@ -1,0 +1,84 @@
+#main{
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+#box{
+    height:100px;
+    width: 100px;
+}
+.hi{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 90px;
+}
+
+.animationArea{
+    display: flex;
+}
+.animationArea:hover .redBox {
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 2s;
+    transform-origin: top left;
+    transform:rotate(90deg);
+}
+.animationArea:hover .blueBox {
+    margin-top: 100px;
+    position:absolute;
+    transition-property: transform;
+    transition-duration: 2s;
+    transform-origin: bottom left;
+    transform:rotate(-90deg);
+}
+.animationArea:hover .yellowBox {
+    margin-left: 100px;
+    position:absolute;
+    transition-property: transform;
+    transition-duration: 2s;
+    transform-origin: top right;
+    transform:rotate(-90deg);
+}
+.animationArea:hover .greenBox {
+    margin-left: 100px;
+    margin-top: 100px;
+    position:absolute;
+    transition-property: transform;
+    transition-duration: 2s;
+    transform-origin: bottom right;
+    transform:rotate(90deg);
+}
+.animationArea .greenBox {
+    margin-left: 100px;
+    margin-top: 100px;
+    position:absolute;
+    transition-property: transform;
+    transition-duration: 2s;
+    transform-origin: bottom right;
+    /* transform:rotate(90deg); */
+}
+
+.animationArea .redBox {
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 2s;
+    transform-origin: top left;
+    /* transform:rotate(90deg); */
+}
+.animationArea .blueBox {
+    margin-top: 100px;
+    position:absolute;
+    transition-property: transform;
+    transition-duration: 2s;
+    transform-origin: bottom left;
+    /* transform:rotate(-90deg); */
+}
+.animationArea .yellowBox {
+    margin-left: 100px;
+    position:absolute;
+    transition-property: transform;
+    transition-duration: 2s;
+    transform-origin: top right;
+    /* transform:rotate(-90deg); */
+}
+
