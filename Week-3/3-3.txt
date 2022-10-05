@@ -1,0 +1,2 @@
+Count is 0
+Because of concept of closures when function log was returned it returned with message and at that time the count was zero.
